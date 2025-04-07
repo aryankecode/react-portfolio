@@ -232,3 +232,11 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
 }
+
+.intro-section img {
+    width: 100%;  
+    height: auto; 
+    object-fit: cover; 
+    object-position: right; 
+}
+

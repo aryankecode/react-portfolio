@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Build React App
+      run: |
+        npm run build
+
+    - name: Build Docker image
+      run: |
+        docker build -t lastName_firstName_coding_assignment14 .
+
+    - name: Run Docker container
+      run: |
+        docker run -d -p 5575:5575 lastName_firstName_coding_assignment14

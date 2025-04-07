@@ -1,115 +1,124 @@
-const logotext = "JOHN";
+const logotext = "Aryan";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Aryan Desai",
+    description: "I’m Aryan Desai _ Full stack Web devloper,currently working as Web Developer and Digital Marketing",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Aryan Desai",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love coding with REACT APP",
+        second: "I code cool websites with updated SEO",
+        third: "I design websites to make them look cool.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "This is my portfolio to establish and display my skills for coding with react app.",
+    your_img_url: "https://storage.googleapis.com/photolibrary31/images/home.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: ".I am a young enthustiastic Web developer who loves making logic work for complicated websites and making them with simple logic.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        where: "Toronto",
+        date: "2024",
     },
     {
         jobtitle: "Designer of week",
-        where: "Jamalya",
+        where: "Vadodara",
         date: "2019",
     },
     {
         jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        where: "Winnipeg",
+        date: "2025",
     },
 ];
 
 const skills = [{
         name: "Python",
+        description: "Experienced in building web applications and data analysis with Python.",
         value: 90,
     },
+
     {
         name: "Djano",
+        description: "Built multiple web applications using Django, focusing on scalable backends.",
         value: 85,
     },
     {
         name: "Javascript",
+        description: "Proficient in JavaScript for both front-end and back-end development.",
+       
         value: 80,
     },
     {
         name: "React",
-        value: 60,
+        description: "Developed dynamic web applications with React, utilizing state management.",
+        
+        value: 89,
     },
     {
         name: "Jquery",
+        description: "Used jQuery for DOM manipulation and creating interactive web components.",
+     
         value: 85,
     },
 ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Cool and trendy UI and UX designs for your websites and app.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Interesting and engaging mobile apps for your bussiness models.",
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Trending marketing Webdesigns and easy themes to keep your bussiness relevant and easy to manage.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/1.jpg",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/2.jpg",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img:"https://storage.googleapis.com/photolibrary31/images/2.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/4.jpg",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/1.jng",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/3.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/4.jpg",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/2.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -124,21 +133,21 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/1.jng",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://storage.googleapis.com/photolibrary31/images/3.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "aryandesaiinfo@gmail.com",
+    YOUR_FONE: "(647)612-2312",
+    description: " Reach out to me on this contact and feel free to discuss and innovate your ideas to reality. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,7 +156,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/aryankecode" ,
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
